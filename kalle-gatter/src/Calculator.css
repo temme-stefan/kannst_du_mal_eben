@@ -1,0 +1,44 @@
+#inputs input{
+    width:2em;
+}
+
+#inputs input, #inputs button{
+    font-size:inherit;
+    text-align: center;
+    padding:0.2em;
+    margin:2px;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+output{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+output table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 5px;
+
+}
+
+
+output table td{
+    padding:0.5em;
+    aspect-ratio: 1;
+    border: 1px solid black;
+
+}
+
+output table td:nth-child(1){
+    background-color: #88888866;
+}
+output table td:nth-child(2){
+    background-color: #88888888;
+}
+
+output table td:nth-child(3){
+    background-color: #888888AA;
+}
