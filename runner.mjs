@@ -1,4 +1,4 @@
-import {generateMatrizes} from "./MatrixGenerator.mjs";
+import {generateMatrizes} from "./kalle-gatter/src/lib/MatrixGenerator.mjs";
 
 
 const allMatrizes = generateMatrizes();
