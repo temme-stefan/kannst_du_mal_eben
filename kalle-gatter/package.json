@@ -15,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "ssh u106909590@access895651998.webspace-data.io \"rm -rf ~/staticSites/kalle/*\" && scp -r build/* u106909590@access895651998.webspace-data.io:~/staticSites/kalle"
   },
   "eslintConfig": {
     "extends": [
